@@ -3,3 +3,53 @@
     margin: 10px;
 }
 
+.dropzone{
+    margin-top: 50px;
+}
+
+.uploadButton{
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(27, 27, 245);
+    color: whitesmoke;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.downloadButton{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(27, 27, 245);
+    color: whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.uploadButton:hover{
+    background-color: rgb(9, 9, 175);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.selection{
+    margin: 20px;
+}
+
+.selection input{
+    border: 2px solid black;
+}
+
+.selection span{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.header{
+   font-weight: 900; 
+}
+
+hr{
+    color: #dddddd;
+    width: 80%;
+}
